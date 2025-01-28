@@ -1,0 +1,25 @@
+//Demonstrtion of array program
+import java.io.*;
+import java.util.*;
+class Array_java
+{
+    public static void main(String args[])
+    {
+      int i;
+      int arr[];
+      arr=new int[2];
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter a array element");
+      for(i=0;i<2;i++)
+      {
+        arr[i]=sc.nextInt();
+      }
+      System.out.println("Array element are");
+      for(i=0;i<2;i++)
+      {
+        System.out.println(" "+arr[i]);
+      }
+    } 
+  
+  
+}
