@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+class currency
+{
+public static void main(String args[])
+{
+float dollar,ruppe,euro,pound;
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter ruppe");
+ruppe=sc.nextFloat();
+euro=ruppe/83;
+dollar=ruppe/75;
+pound=ruppe/100;
+System.out.println("Euro is"+euro);
+System.out.println("dollar is"+dollar);
+System.out.println("Pound is"+pound);
+}
+
+
+
+}
