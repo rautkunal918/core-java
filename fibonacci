@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+class fibonacci_series 
+{
+    public static void main(String args[])
+    {
+        int a,b=1,c=0,num;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a number upto you want to print fabonacci serier");
+        num=sc.nextInt();
+        for(int i=1;i<=num;i++)
+        {
+           
+            System.out.println(""+c);
+            a=b;
+            b=c;
+            c=a+b;
+           
+        }
+    
+    }
+}
