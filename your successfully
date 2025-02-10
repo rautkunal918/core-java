@@ -1,0 +1,43 @@
+import java.io.*;
+import java.util.*;
+class Student
+{
+    String name;
+    int roll_no;
+    Scanner sc=new Scanner(System.in);
+    void accept()
+    {
+        System.out.println("Enter a name ");
+        name=sc.nextLine();
+        System.out.println("Enter Roll no");
+        roll_no=sc.nextInt();
+
+    }
+
+}
+class Single_IN extends Student
+{
+    int m1,m2; 
+    void getdata()
+    {
+        System.out.println("Enter m1 marks");
+        m1=sc.nextInt();
+        System.out.println("Enter m2 marks");
+        m2=sc.nextInt();
+
+    } 
+    void display()
+    {
+        System.out.println("Name of student is "+name);
+        System.out.println("Roll no is "+roll_no);
+        int totalmarks=m1+m2;
+        System.out.println("Total marks is "+totalmarks);
+    }
+  public static void main(String args[])
+  {
+    Single_IN obj=new Single_IN();
+    obj.accept();
+    obj.getdata();
+    obj.display();
+  }
+}
