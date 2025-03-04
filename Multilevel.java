@@ -32,7 +32,7 @@ class Multilevel extends customer
     {
         System.out.println("Bank name is "+bank_name);
         System.out.println("Bank address is "+add);
-        System.out.println("Account number is"+acc_no);
+        System.out.println("Acccount number is"+acc_no);
         System.out.println("Customer name is"+name);
     }
     public static void main(String args[])
